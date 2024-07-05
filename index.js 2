@@ -1,0 +1,44 @@
+
+function calculateDemeritPoints(speed) {
+
+const speedLimit = 70;
+
+const kmPerDemeritPoint = 5;
+
+const pointsThreshold = 12;
+
+if (speed < speedLimit) {
+
+console.log("Ok");
+
+no points for within limit return;
+
+}
+
+// Calculate demerit points
+
+let excessSpeed = speed - speedLimit;
+
+const demeritPoints = Math. return Math.floor(excessSpeed / kmPerDemeritPoint);
+
+if(pointsThreshold < demeritPoints) {
+
+console. log("License suspended");
+
+} else {
+
+console. log( `Points: ${demeritPoints}` );
+
+}
+
+}
+
+// Example usage:
+
+calculateDemeritPoints(80); // 2 Points
+
+points = calculateDemeritPoints(95); // Output: Points: 5
+
+When demerit points = calculateDemeritPoints( 70 ); then..... Ok // OUTPUT, of Covid era trivia.
+
+calculateDemeritPoints(130);// License suspended
